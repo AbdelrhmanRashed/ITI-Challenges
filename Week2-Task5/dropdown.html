@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Drop down</title>
+  </head>
+  <body>
+    <label for="studentsID">Students ID : </label>
+    <select name="students" id="studentsID">
+      <option value="select">Select Student ID</option>
+    </select>
+    <br />
+    <br />
+    <table class="students" border align="center" width="70%">
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>NAME</th>
+          <th>AGE</th>
+          <th>COURSE</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr id="student">
+          <td colspan="4"><p align="center">Select Student ID</p></td>
+        </tr>
+      </tbody>
+    </table>
+    <script src="scripts/dropdown.js"></script>
+  </body>
+</html>
